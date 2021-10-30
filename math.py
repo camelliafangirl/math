@@ -12,11 +12,14 @@
 # io loop
 # plotting of function within ranges
 
+from mathtoken import Assoc, Type, Token
+
 def main():
     while True:
         line = input()
         if line.lower() == 'exit':
             exit()
+        
 
 if __name__ == '__main__':
     main()

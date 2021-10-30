@@ -65,12 +65,8 @@ class Token():
     def tokenize(str):
         raise ValueError('Tokenize Method not implemented yet.')
 
-
-
 def main():
-    a = Token(Type.NUMBER, val=1)
-    print(a.tokenize('a'))
-    Token.tokenize('a')
+    pass
 
 if __name__ == '__main__':
     main()
